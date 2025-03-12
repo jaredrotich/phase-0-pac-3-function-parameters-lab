@@ -1,7 +1,11 @@
 function introduction(name) {
-    console.log(`HI, my name is ${Jared}.`);
+    console.log(`HI, my name is ${name}.`);
 }
 
-function introduction(name, language) {
-    console.log(`Hi, my name is ${Jared} and i am learning to program in ${JavaScript}.`)
+introduction(`Aki`); //Calling the function and passing 'Aki' as an argument
+
+function introductionWithLanguage(name, language) {
+    console.log(`Hi, my name is ${name} and i am learning to program in ${language}.`)
 }
+
+introductionWithLanguage(`Aki`, `JavaScript`); // Calling the second function and passing 'Aki' and 'JavaScript' as arguments
